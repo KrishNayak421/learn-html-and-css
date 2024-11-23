@@ -1,0 +1,295 @@
+< !DOCTYPE html><html lang=3D"en"><head><meta charset=3D"UTF-8" /><meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0" />
+ <style>@import url("https://fonts.googleapis.com/css2?family=3DPoppins:wght@=
+ 200; 300; 400; 500&display=3Dswap");
+ * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", "Arial";
+        color: #fff;
+        text-align: center;
+    }
+
+    .mailTemplateMainContainer {
+        margin: 5px auto;
+        max-width: 768px;
+        background-color: #0b0b0b;
+
+        background-image: url("https://share1.cloudhq-mkt3.net/ebf6aff5ea69=
+ 46.png");
+ background-size: cover;
+            background-position: top;
+            background-repeat: no-repeat;
+            padding: 5px 10px;
+            border-radius: 10px;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .mailTemplateMainContainer .mailDiv .collegeDetails {
+            text-align: center;
+        }
+
+        .mailTemplateMainContainer .mailDiv .collegeDetails .collegeLogo {
+            width: 100px;
+            /* Increased size */
+            height: 100px;
+            /* Increased size */
+            background-image: url("https://share1.cloudhq-mkt3.net/08b4f31ba091=
+ f0.jpeg");
+ background-size: cover;
+                margin: 5px auto;
+            }
+
+            .mailTemplateMainContainer .mailDiv .collegeDetails .collegeName {
+                font-size: 18px;
+            }
+
+            .mailTemplateMainContainer .mailDiv .collegeDetails .collegeAddress {
+                font-size: 14px;
+            }
+
+            .mailTemplateMainContainer .mailDiv .hackathon {
+                padding: 10px;
+                text-align: center;
+            }
+
+            .mailTemplateMainContainer .mailDiv .hackathon .department {
+                font-size: 20px;
+            }
+
+            .mailTemplateMainContainer .mailDiv .hackathon .hackathonLogo {
+                max-width: 400px;
+                height: auto;
+                overflow: hidden;
+                margin: 0 auto;
+            }
+
+            .mailTemplateMainContainer .mailDiv .hackathon .hackathonLogo img {
+                width: 100%;
+                transform: rotate(0.7deg);
+            }
+
+            .mailTemplateMainContainer .mailDiv .mailContent {
+                width: 90%;
+                margin: 0 auto;
+            }
+
+            .mailTemplateMainContainer .mailDiv .mailContent .mainMessage {
+                background-color: #f2a657;
+                width: 100%;
+                margin: 0 auto;
+                text-align: center;
+                padding: 5px 20px;
+                font-size: 24px;
+                border-radius: 15px;
+                color: rgb(255, 255, 255);
+                /* font-weight: 450; */
+                letter-spacing: 0.5px;
+                text-transform: capitalize;
+            }
+
+            img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: 0 auto;
+            }
+
+            .mailTemplateMainContainer .mailDiv .mailContent .longMessage {
+                padding: 20px 10px;
+                /* color: rgb(215, 215, 215); */
+                font-weight: 400;
+                text-align: justify;
+                font-size: 18px;
+                text-align: justify;
+                font-size: 15px;
+                font-weight: 500;
+            }
+
+            .mailTemplateMainContainer .mailDiv .mailContent .longMessage a {
+                text-decoration: none;
+                color: #f2a657;
+            }
+
+            .note {
+                width: 100%;
+                text-align: center;
+                font-size: 15px;
+                font-weight: 300;
+                color: #252525;
+                padding: 10px;
+            }
+
+            .imp {
+                color: #f2a657;
+            }
+
+            @media only screen and (max-width: 425px) {
+                .mailTemplateMainContainer {
+                    width: 95%;
+                }
+
+                .mailTemplateMainContainer .mailDiv .collegeDetails .collegeName {
+                    font-size: 14px;
+                }
+
+                .mailTemplateMainContainer .mailDiv .collegeDetails .collegeAddress= {
+                    font-size: 10px;
+                }
+
+                .mailTemplateMainContainer .mailDiv .hackathon {
+                    font-size: 8px;
+                }
+
+                .mailTemplateMainContainer .mailDiv .hackathon .department {
+                    font-size: 12px;
+                }
+
+                .mailTemplateMainContainer .mailDiv .mailContent .mainMessage {
+                    font-size: 12px;
+                }
+
+                .mailTemplateMainContainer .mailDiv .mailContent .longMessage {
+                    font-size: 10px;
+                }
+
+                .note {
+                    font-size: 8px;
+                }
+            }
+
+            </style> </head> <body> <div class=3D"mailTemplateMainContainer" > <div class=3D"mailDiv" > <div class=3D"collegeDetails" > <div class=3D"collegeLogo" > <img src=3D"" alt=3D"" /> </div> <div class=3D"collegeName" > Vidyavardhini's College of Engineering & Technology
+ </div> <div class=3D"collegeAddress" > K.T. Marg, Vasai Road (W), Dist. Palghar, Maharashtra - 401202 </div> </div> <div class=3D"hackathon" > <div class=3D"department" >Department of Information Technology</d=iv> <div>PRESENTS</div> <div class=3D"hackathonLogo" style=3D"margin-bottom: 20px" > <img src=3D"https://share1.cloudhq-mkt3.net/ea446c54e9e79a.png"
+            alt=3D""
+            /> </div> </div> <div class=3D"mailContent" > <div class=3D"mainMessage" >Successfully registered !</div> <div class=3D"longMessage" > Dear Mayank,
+            <br /><br /> We hope this message finds you well. We are delighted to inform=you that your registration for the VCET Hackathon: Code The Cosmos=has been successfully received. Thank you for expressing your inter=est in our event ! We have received an overwhelming response, and we=are excited about the incredible projects that will come to life du=ring this hackathon. Our team is dedicated to ensuring a fair and competitive selection process for all participants. <br /> <br /> Here are the next steps in the process: <br /> <b class=3D"imp" >Abstract Review:</b> Our team will now begin t=he process of reviewing the abstracts submitted by all registered participants. The abstract is a critical part of the selection process, and it provides us with insight into your project idea=and its potential impact. <br /> <b class=3D"imp" >Shortlisting Teams:</b> After carefully review=ing all abstracts, we will shortlist teams based on the quality and feasibility of the project ideas presented. Shortlisted teams w=ill be notified via email. <br /> <b class=3D"imp" >Hackathon Details:</b> Once teams are finalize=d, we will share additional details about the hackathon, including th=e schedule, rules, and resources, to help you prepare for the eve=nt. <br /><br /> We encourage you to check your email regularly for updates and announcements regarding the hackathon. If you have any question=s or require further assistance, please do not hesitate to reach out=to us at <a href=3D"mailto:vcet.hackathon@vcet.edu.in"
+            >vcet.hackathon@vcet.edu.in</a >. We appreciate your enthusiasm and commitment to making VCET Hackathon: Code The Cosmos a success. We look forward to seeing=your innovative ideas come to life during the event. <br /> <br /> Visit our <a href=3D"https://vcet-hackathon.com" target=3D"_blank"
+            >official website-https: //vcet-hackathon.com</a
+            > for more details and updates. <br> <br> To proceed further, please fill out the provided form :=20 <a href=3D"https://forms.gle/QfvBxe5u6avockT28" target=3D"_blan=
+ k"
+ >FORM LINK</a > <br> <br>=20 </div>=20 </div> </div> </div> <div style=3D"display: flex; justify-content: center; align-items: cent=
+ er; background-color: #ffffff; ">
+ <table class=3D"row-content stack"
+            align=3D"center"
+            border=3D"0"
+            cellpadding=3D"0"
+            cellspacing=3D"0"
+            role=3D"presentation"
+            style=3D"
+ mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+            border-radius: 0;
+            color: #000000;
+            width: 600px;
+            margin: 0 auto;
+            "
+ width=3D"600"
+            > <tbody> <tr> <td class=3D"column column-1"
+            width=3D"100%"
+            style=3D"
+ mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+            font-weight: 400;
+            text-align: left;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            vertical-align: top;
+            border-top: 0px;
+            border-right: 0px;
+            border-bottom: 0px;
+            border-left: 0px;
+            "
+ > <table class=3D"social_block block-1"
+            width=3D"100%"
+            border=3D"0"
+            cellpadding=3D"10"
+            cellspacing=3D"0"
+            role=3D"presentation"
+            style=3D"
+ mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+            "
+ > <tr> <td class=3D"pad" > <div class=3D"alignment" align=3D"center"=> <table class=3D"social-table"
+            width=3D"180px"
+            border=3D"0"
+            cellpadding=3D"0"
+            cellspacing=3D"0"
+            role=3D"presentation"
+            style=3D"
+ mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+            display: inline-block;
+            "
+ > <tr> <td style=3D"padding: 0 2px 0 2px" > <a href=3D"https://facebook.com/vc=
+ et.hackathon"
+ target=3D"_blank"
+            ><img src=3D"https://app-rsrc.getbe=
+ e.io/public/resources/social-networks-icon-sets/t-only-logo-dark-gray/faceb=ook@2x.png"
+ width=3D"32"
+            height=3D"auto"
+            alt=3D"Facebook"
+            title=3D"facebook"
+            style=3D"
+ display: block;
+            height: auto;
+            border: 0;
+            "
+ /></a> </td> <td style=3D"padding: 0 2px 0 2px" > <a href=3D"https://twitter.com/Vce=
+ tHackathon?t=3DbGmgk92_qLXIO41MbQj-9g&s=3D08"
+ target=3D"_blank"
+            ><img src=3D"https://app-rsrc.getbe=
+ e.io/public/resources/social-networks-icon-sets/t-only-logo-dark-gray/twitt=er@2x.png"
+ width=3D"32"
+            height=3D"auto"
+            alt=3D"Twitter"
+            title=3D"twitter"
+            style=3D"
+ display: block;
+            height: auto;
+            border: 0;
+            "
+ /></a> </td> <td style=3D"padding: 0 2px 0 2px" > <a href=3D"https://www.linkedin.co=
+ m/in/vcet-hackathon"
+ target=3D"_blank"
+            ><img src=3D"https://app-rsrc.getbe=
+ e.io/public/resources/social-networks-icon-sets/t-only-logo-dark-gray/linke=din@2x.png"
+ width=3D"32"
+            height=3D"auto"
+            alt=3D"Linkedin"
+            title=3D"linkedin"
+            style=3D"
+ display: block;
+            height: auto;
+            border: 0;
+            "
+ /></a> </td> <td style=3D"padding: 0 2px 0 2px" > <a href=3D"https://instagram.com/h=
+ ackathon_vcet"
+ target=3D"_blank"
+            ><img src=3D"https://app-rsrc.getbe=
+ e.io/public/resources/social-networks-icon-sets/t-only-logo-dark-gray/insta=gram@2x.png"
+ width=3D"32"
+            height=3D"auto"
+            alt=3D"Instagram"
+            title=3D"instagram"
+            style=3D"
+ display: block;
+            height: auto;
+            border: 0;
+            "
+ /></a> </td> <td style=3D"padding: 0 2px 0 2px" > <a href=3D"https://youtube.com/cha=
+ nnel/UCiXUwtsG0IsktJ69rjPZTgQ"
+ target=3D"_blank"
+            ><img src=3D"https://app-rsrc.getbe=
+ e.io/public/resources/social-networks-icon-sets/t-only-logo-dark-gray/youtu=be@2x.png"
+ width=3D"32"
+            height=3D"auto"
+            alt=3D"YouTube"
+            title=3D"YouTube"
+            style=3D"
+ display: block;
+            height: auto;
+            border: 0;
+            "
+ /></a> </td> </tr> </table> </div> </td> </tr> </table> </div> <div class=3D"note" > This is a system-generated email; please do not reply to this. </div> </body> </html>
